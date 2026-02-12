@@ -1,0 +1,10 @@
+def convertir_temperatura(celsius) :
+    fahrenheit = (celsius * 9/5) + 32
+    kelvin = celsius + 273.15
+    return fahrenheit, kelvin
+
+c = float( input("ingrese temperatura en °C: "))
+f, k = convertir_temperatura (c)
+
+print ("fahrenheit" , f)
+print ("kelvin:", k)
